@@ -37,4 +37,22 @@ public class Queue {
         }
         return result;
     }
+
+    public void push(int i) {
+        System.out.println("Push Method");
+    }
+
+    public boolean peek() {
+        System.out.println("peek method");
+        return true;
+    }
+
+    public boolean isEmpty() {
+        return true;
+    }
+
+    public boolean pop() {
+        System.out.println("Pop method!");
+        return true;
+    }
 }
